@@ -1,7 +1,7 @@
 {
   "name": "rule-apparatus",
-  "version": "1.0.0",
-  "description": "Simple rule engine",
+  "version": "1.0.2",
+  "description": "Simple rule engine in TypeScript",
   "license": "MIT",
   "scripts": {
     "build": "tsc",
@@ -11,12 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rschaniel/jrooles.git"
+    "url": "git+https://github.com/rschaniel/rule-apparatus"
   },
   "main": "src/index.js",
   "keywords": [
     "rules",
-    "rules-engine"
+    "rules-engine",
+    "typescript"
   ],
   "devDependencies": {
     "@types/jest": "^27.0.2",
@@ -26,5 +27,6 @@
     "tslint": "^6.1.3",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^4.4.4"
-  }
+  },
+  "files": ["lib/**/*"]
 }

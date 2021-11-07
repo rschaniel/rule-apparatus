@@ -5,6 +5,7 @@
       <excludeFolder url="file://$MODULE_DIR$/../jrools/.tmp" />
       <excludeFolder url="file://$MODULE_DIR$/../jrools/temp" />
       <excludeFolder url="file://$MODULE_DIR$/../jrools/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/lib" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

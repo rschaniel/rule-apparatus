@@ -1,4 +1,5 @@
 node_modules
+/lib
 
 # User-specific stuff
 .idea/**/workspace.xml
