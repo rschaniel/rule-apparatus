@@ -1,0 +1,30 @@
+{
+  "name": "rule-apparatus",
+  "version": "1.0.0",
+  "description": "Simple rule engine",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --config jestconfig.json",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rschaniel/jrooles.git"
+  },
+  "main": "src/index.js",
+  "keywords": [
+    "rules",
+    "rules-engine"
+  ],
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "jest": "^27.3.1",
+    "prettier": "^2.4.1",
+    "ts-jest": "^27.0.7",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.4.4"
+  }
+}
