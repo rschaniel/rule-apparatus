@@ -1,6 +1,12 @@
 # Rule-Apparatus
 A simple rule engine
 
+## Installation
+
+```
+npm i rule-apparatus
+```
+
 ## Usage
 
 Definition: 
